@@ -1,0 +1,39 @@
+HKLM
+{
+	NoRemove Software
+	{
+		NoRemove Classes
+		{
+			NoRemove CLSID
+			{
+				ForceRemove {0AE87E97-08ED-4D43-ADA3-ADD3166FC4D2} = s 'Folder Options X'
+				{
+					InprocServer32 = s '%MODULE%'
+					{
+						val ThreadingModel = s 'Apartment'
+					}
+				}
+			}	
+		}
+
+		NoRemove Microsoft
+		{
+			NoRemove Windows
+			{
+				NoRemove CurrentVersion
+				{
+					NoRemove Explorer
+					{
+						NoRemove 'Browser Helper Objects'
+						{
+							ForceRemove {0AE87E97-08ED-4D43-ADA3-ADD3166FC4D2}
+							{
+								val NoInternetExplorer = d '1'
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

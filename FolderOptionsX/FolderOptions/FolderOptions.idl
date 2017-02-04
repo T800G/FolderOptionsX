@@ -1,0 +1,40 @@
+// FolderOptions.idl : IDL source for FolderOptions.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (FolderOptions.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	
+	[
+		object,
+		uuid(F0488633-64CF-4B47-98E8-7CCF9F85E6F1),
+		dual,
+		helpstring("IExplorerBHO Interface"),
+		pointer_default(unique)
+	]
+	interface IExplorerBHO : IDispatch
+	{
+	};
+
+[
+	uuid(56DB5067-F8E7-41A5-A09B-5CFEFE25B841),
+	version(1.0),
+	helpstring("FolderOptions 1.0 Type Library")
+]
+library FOLDEROPTIONSLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	
+	[
+		uuid(0AE87E97-08ED-4D43-ADA3-ADD3166FC4D2),
+		helpstring("ExplorerBHO Class")
+	]
+	coclass ExplorerBHO
+	{
+		[default] interface IExplorerBHO;
+	};
+};
