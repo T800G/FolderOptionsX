@@ -10,4 +10,4 @@ If you reset Internet Explorer settings, you might have to re-enable third party
 If you are using Internet Explorer 8, Folder Options X extension must be enabled in Add-ons manager.<br/>
 <br/>
 ##Credits
-Icons by [FatCow Web Hosting](http://www.fatcow.com/free-icons "Download free icons from FatCow Web Hosting")
+Icons by <a title="Download free icons from FatCow Web Hosting" href="http://www.fatcow.com/free-icons" target="_blank">FatCow Web Hosting</a>
