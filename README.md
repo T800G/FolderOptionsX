@@ -1,7 +1,7 @@
 # Folder Options X
 Windows Explorer browser helper add-on which enables hidden folder options.
-![alt text](https://github.com/T800G/FolderOptionsX/blob/master/foptmgr.png "Folder Options X Manager")
-
+![alt text](https://github.com/T800G/FolderOptionsX/blob/master/foptmgr.png "Folder Options X Manager")<br/>
+You have to close all opened windows before changes are applied.<br/>
 ##Minimum system requirements
   * Windows 7 (32 and 64-bit)
 
